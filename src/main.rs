@@ -1,6 +1,7 @@
-use std::io;
+// use std::io;
+// use std::cmp::Ordering;
+use std::{cmp::Ordering, io}; // using common parts
 use rand::Rng;
-use std::cmp::Ordering;
 
 fn main() {
     println!("Guessing the number game!");
